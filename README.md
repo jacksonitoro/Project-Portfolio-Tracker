@@ -48,22 +48,28 @@ it-project-portfolio-tracker/
 ## Screenshots
 
 ### Dashboard
-![Dashboard](docs/images/dashboard.png)
+
+<img src="docs/images/dashboard.png" width="900"/>
 
 ---
 
 ### Filtering Feature
-![Filtering](docs/images/filter-feature.png)
+
+<img src="docs/images/filter-feature.png" width="900"/>
 
 ---
 
 ### Project List
-![Project List](docs/images/project-list.png)
+
+
+<img src="docs/images/project-list.png" width="900"/>
 
 ---
 
 ### API Documentation
-![Swagger UI](docs/images/swagger-ui.png)
+
+
+<img src="docs/images/swagger-ui.png" width="900"/>
 
 ## Installation
 
