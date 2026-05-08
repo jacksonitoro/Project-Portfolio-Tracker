@@ -11,6 +11,8 @@ The application enables users to:
 - View portfolio-level dashboard metrics
 - Manage project information in a centralized system
 
+---
+
 ## Features
 
 - Full CRUD operations
@@ -23,6 +25,7 @@ The application enables users to:
 - REST API with FastAPI
 - SQLite database integration
 
+---
 
 ## Project Structure
 
@@ -43,7 +46,9 @@ it-project-portfolio-tracker/
 │
 ├── README.md
 └── requirements.txt
+```
 
+---
 
 ## Screenshots
 
@@ -61,15 +66,15 @@ it-project-portfolio-tracker/
 
 ### Project List
 
-
 <img src="docs/images/project-list.png" width="900"/>
 
 ---
 
 ### API Documentation
 
-
 <img src="docs/images/swagger-ui.png" width="900"/>
+
+---
 
 ## Installation
 
@@ -80,28 +85,28 @@ cd backend
 
 python -m venv venv
 
-source venv/bin/activate
-# Windows:
-# venv\Scripts\activate
+# Windows
+venv\Scripts\activate
 
 pip install -r requirements.txt
 
 uvicorn main:app --reload
+```
 
+---
 
+### Frontend Setup
+
+```bash
 cd frontend
 
 npm install
 
 npm start
-
-
+```
 
 ---
 
-# ✅ SECTION 8 — API Endpoints
-
-```md id="4m3jlwm"
 ## API Endpoints
 
 | Method | Endpoint | Description |
@@ -113,6 +118,7 @@ npm start
 | GET | /dashboard/ | Dashboard metrics |
 | GET | /projects/status/{status} | Filter by status |
 
+---
 
 ## Future Improvements
 
